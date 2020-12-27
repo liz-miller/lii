@@ -1,7 +1,7 @@
-baseURL = ""
+baseURL = "https://lizmillerfit.com"
 languageCode = "en-us"
 theme = "raditian-free-hugo-theme"
-
+title = "Robotics Engineer | Liz Miller"
 # Plugins
 [params.plugins]
 
