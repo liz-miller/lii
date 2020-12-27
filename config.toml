@@ -40,6 +40,11 @@ theme = "raditian-free-hugo-theme"
   URL = "#contact"
   weight = 4
 
+  [[menu.header]]
+  name = "Meet with Liz"
+  URL = "https://calendly.com/learnrobotics/consult"
+  weight = 5
+
   [[menu.footer]]
   name = "About"
   URL = "#about"
