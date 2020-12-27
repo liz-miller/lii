@@ -1,0 +1,207 @@
+# homepage
+homepage:
+  head:
+    title: "Home | Liz Miller"
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Liz."
+  subtitle: "A Robotics Engineer & Entrepreneur"
+  description: "I'm the founder of <a target='_blank' href='https://www.learnrobotics.org'>Learn Robotics</a>, the #1 edTech site designed to help people gain robotics skills. Welcome to my technical consulting website. I created Freedom in Tech (FiT) as a way to help Startups and Small Businesses. As an entrepreneur, myself, I understand how tricky it is to wear a bunch of hats. If you're not technically-inclined or you need extra support, you can hire me as your acting CTO, Director of Ops, or Part-Time Tech Manager. I am now taking on additional clients for 2021. <br><b>Contact me below to see if we're a good fit!</b>"
+  image:
+    alt: "Liz Miller robotics engineer and entrepreneur"
+    x: "img/who-am-i/liz.png"
+    _2x: "img/who-am-i/liz.png"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "/#contact"
+
+  socialLinks:
+    # - icon: "linkedin"
+    #   URL: "https://www.linkedin.com/in/lizmillerfit"
+
+# about
+about:
+  enable: true
+  title: "Need a technical mind?"
+  content: '<p class="lead">
+    Feeling overwhelmed by coding, building a tech team, business systems, and automation? Not sure how to move your business forward? Wasting money on what seems like <u>too many tools</u>?</p>
+    <p class="lead">
+    <b>Stop pulling your hair out! I can help!</b></p>
+    <p class="lead">You can now receive high-quality technical advising, business optimization, and automation services without hiring a full-time employee. Reap the benefits of a Technical Director on your Leadership Team without the hassle!
+    </p>
+    <p class="lead">
+     I can help you design your technical infrastructure, manage your engineering team, develop product and manufacturing specs, and so much more. Work with me to translate your goals into automated tasks and action-oriented procedures.
+     </p>
+    '
+  # button:
+  #   icon: "icon-smile-fill"
+  #   btnText: "Schedule a Free Call"
+  #   URL: "https://calendly.com/learnrobotics/phone"
+  # image:
+  #   x: "img/showcase/teamwork.jpg"
+  #   _2x: "img/showcase/teamwork.jpg"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "Worcester Polytechnic Institute (WPI)"
+      year: "2011-2015"
+      degree: "Bachelor of Science (BSc), Robotics Engineering"
+
+    # - university: "Learn Robotics University"
+    #   year: "2018-2020"
+    #   degree: "Master of Science (MSc), Business & Entreprenurship"
+
+# experience
+experience:
+  enable: true
+  title: "Hands-on Experience"
+  description: "Over 10+ years of experience working in (and on) companies big and small. I am a natural technical mind with a wealth of knowledge across entrepreneurship, engineering, robotics, automation, and operations. I help small businesses and startups expand their technical team for rapid-growth and maximized profits."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/lizmillerfit"
+  button2:
+    icon: ""
+    btnText: "Request a free call"
+    URL: "https://calendly.com/learnrobotics/phone"
+
+  items:
+
+    - title: "Operations Leadership Program"
+      company: "Raytheon Technologies"
+      duration: "2015 - 2017"
+
+    - title: "Founder, CEO"
+      company: "Learn Robotics"
+      duration: "2017 - Present"
+
+    - title: "Automation Engineer"
+      company: "Pratt & Whitney"
+      duration: "2017 - 2018"
+
+
+# Client & Work
+client_and_work:
+  title: "Clients & Work"
+  enable: true
+
+  clients:
+    - logo:
+        x: "img/clients/learnrobotics.png"
+        _2x: "img/clients/learnrobotics@2x.png"
+      alt: "Learn Robotics"
+      url: "https://www.learnrobotics.org"
+
+    - logo:
+        x: "/img/clients/weldingrods.png"
+        _2x: "/img/clients/weldingrods@2x.png"
+      alt: "Weldingrods.com"
+      url: "https://weldingrods.com"
+
+    - logo:
+        x: "/img/clients/mits.png"
+        _2x: "/img/clients/mits@2x.png"
+      alt: "Made in the Shade"
+      url: "https://mitsftmyers.com"
+
+    - logo:
+        x: "/img/clients/wayfinders.png"
+        _2x: "/img/clients/wayfinders@2x.png"
+      alt: "Wayfinders"
+      url: "https://wayfinders-atl.com"
+
+  works:
+    - title: "Learn Robotics, Anywhere"
+      description: "From hundreds of robotics articles to full-length online courses for individuals and organizations, Learn Robotics helps people skyrocket their tech skills and transform their careers."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Learn More"
+        URL: "https://www.learnrobotics.org/about/"
+      image:
+        x: "img/works/learnrobotics.jpg"
+        _2x: "img/works/learnrobotics.jpg"
+      is_even: true
+
+    - title: "Cohesive, Integrated Systems"
+      description: "Managed the ideation, testing, and implementation for a new WordPress, eCommerce, and Automated Fulfillment system for Weldingrods.com."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/weldingrods.jpg"
+        _2x: "img/works/weldingrods.jpg"
+      is_even: false
+
+    - title: "Strategy + Automated Execution"
+      description: "Migrated manual procedures into a full suite of tech and automated tools to reduce lead time and increase referrals."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Request Info"
+        URL: "#contact"
+      image:
+        x: "img/works/liz.jpg"
+        _2x: "img/works/liz.jpg"
+      is_even: true
+
+# testimonial
+testimonial:
+  enable: false
+  title: "What People Are Saying"
+  items:
+    - name: "Daniel Jordan"
+      position: "Phonet, CEO"
+      content: "It's been so great having Liz help me with my growing business. She knows a lot about automation, tech, and procedures that I overlooked before working with her. Liz is the real deal - Hire her!"
+      image:
+        x: "img/testimonials/daniel-jordan.jpg"
+        _2x: "img/testimonials/daniel-jordan@2x.jpg"
+
+    - name: "Jonathan Peters"
+      position: "Textic, CEO"
+      content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
+      image:
+        x: "img/testimonials/jonathan-peters.jpg"
+        _2x: "img/testimonials/jonathan-peters@2x.jpg"
+
+    - name: "Antonio Willis"
+      position: "Cyberse, CEO"
+      content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
+      image:
+        x: "img/testimonials/antonio-willis.jpg"
+        _2x: "img/testimonials/antonio-willis@2x.jpg"
+
+# contact
+contact:
+  enable: true
+  title: "Contact"
+  form:
+    method: "POST"
+    action: "#"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  phone:
+    title: "Phone Number"
+    number: "+1 470-231-7659"
+  email:
+    title: "Email"
+    email: 'info@lizmillerfit.com'
+  address:
+    title: "Mailing Address"
+    address: "Liz Miller FiT<br />13650 Fiddlesticks Blvd <br />STE 202-155<br /> Fort Myers, FL 33912"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."

@@ -1,0 +1,18 @@
+/* custom css*/
+
+.nav-button, .btn-primary{
+  padding:12px;
+  background-color: #662C91;
+  color: white;
+  border-radius: 25px;
+  text-transform: uppercase;
+  font-size: .75em;
+}
+
+.nav-button:hover, .btn-primary:hover{
+  background-color: #89FC00;
+  text-decoration: none;
+  color:black;
+  font-weight:bold;
+  border: none;
+}
